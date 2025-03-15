@@ -1,6 +1,6 @@
 module.exports = {
     //### 环境相关
-    CLOUD_ID: 'mp-d0c06b27-ec33-40fe-b28b-337811bd2f29',
+    CLOUD_ID: '',
     //云服务id ,本地测试环境
 
     // #### 版本信息
