@@ -1,0 +1,1 @@
+<view><block wx:if="{{!isLoad}}"><view class="margin-top load loading text-l text-admin"></view></block><block wx:if="{{isAdmin&&isLoad}}"><view class="main-admin"><admin_meet_scan_tpl vue-id="024a5275-1" data="{{this}}" bind:__l="__l"></admin_meet_scan_tpl></view></block></view>

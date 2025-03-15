@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#2499f2",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "管理员管理",
+  "usingComponents": {
+    "cmpt-comm-list": "/cmpts/public/list/comm_list_cmpt",
+    "listLoadTpl": "../../../../../../tpls/public/list_load_tpl",
+    "list-load-tpl": "/tpls/public/list_load_tpl"
+  }
+}

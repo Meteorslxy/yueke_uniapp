@@ -1,0 +1,2 @@
+<wxs src="../../../../../../tpls/wxs/tools.wxs" module="tools"></wxs>
+<view><block wx:if="{{isWork}}"><block><admin_meet_time_form_tpl vue-id="6988d161-1" data="{{this}}" bind:__l="__l"></admin_meet_time_form_tpl></block></block></view>

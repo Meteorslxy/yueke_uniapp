@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#2499f2",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "用户详情",
+  "usingComponents": {
+    "adminFormsDetailTpl": "../../../../../../tpls/public/admin_forms_detail_tpl",
+    "admin-forms-detail-tpl": "/tpls/public/admin_forms_detail_tpl"
+  }
+}

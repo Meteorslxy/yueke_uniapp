@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "About_tpl": "../../../../../tpls/project/about_tpl",
+    "about_tpl": "/tpls/project/about_tpl"
+  }
+}

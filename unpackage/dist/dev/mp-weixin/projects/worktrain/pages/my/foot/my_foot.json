@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "历史浏览",
+  "usingComponents": {
+    "My_foot_tpl": "../../../../../tpls/project/my_foot_tpl",
+    "my_foot_tpl": "/tpls/project/my_foot_tpl"
+  }
+}

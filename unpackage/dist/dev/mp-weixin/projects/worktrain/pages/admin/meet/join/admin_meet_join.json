@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#2499f2",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "分时段预约名单",
+  "usingComponents": {
+    "Admin_meet_join_tpl": "./admin_meet_join_tpl",
+    "admin_meet_join_tpl": "/projects/worktrain/pages/admin/meet/join/admin_meet_join_tpl"
+  }
+}

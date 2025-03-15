@@ -1,0 +1,303 @@
+page {
+    background-color: #f8f8f8;
+
+    background-color: #efefef;
+
+    --projectColor: #2b72d4;
+    --projectColorLight: #79a6e4;
+    --projectCompareColor: #eb7887;
+
+    /*#### 父组件日历颜色定义*/
+    --calendarPageColor: #fff;
+    /* 加重颜色*/
+    --calendarMainColor: #2b72d4 !important;
+    /* 加重的亮颜色 用于选中日期的数据小圆点 */
+    --calendarLightColor: #2b72d4;
+}
+.bg-admin {
+    background-color: #2499f2;
+}
+.text-project {
+    color: var(--projectColor) !important;
+}
+.bg-project {
+    background-color: var(--projectColor) !important;
+}
+.bg-project.light {
+    color: var(--projectColor) !important;
+    background-color: var(--projectColorLight) !important;
+}
+.border-project {
+    border-color: #333 !important;
+}
+.menu-project {
+    color: var(--projectColor) !important;
+}
+.tabs .tab {
+    font-size: 28rpx !important;
+}
+.tabs .cur {
+    color: var(--projectColor) !important;
+}
+.tabs .tab-menu.cur:after {
+    background-color: var(--projectColor) !important;
+}
+.load-project {
+    color: #8799a3 !important;
+}
+.padding-project {
+    padding-left: 25rpx !important;
+    padding-right: 25rpx !important;
+}
+.btn-project {
+    line-height: 80rpx;
+    height: 80rpx;
+    color: #fff;
+    background-color: var(--projectColor);
+    border-radius: 20rpx !important;
+}
+.phone-button {
+    color: var(--projectColor) !important;
+}
+.shadow-project {
+    box-shadow: 6rpx 6rpx 8rpx rgba(216, 220, 223, 0.5);
+}
+.card-project,
+.main .list .item.card-project,
+.down .comm-list.menu.card-project,
+.article-box .article.card-project,
+.text-pic-list-box .item.card-project,
+.info-list-box .item.card-project,
+.main-content .content.card-project,
+.comm-list-box .item.card-project,
+.form-box.card-project,
+.bar .search-form {
+    border-radius: 20rpx !important;
+}
+.up-project {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.up-project image {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+.my-icon-project {
+    color: var(--projectColor) !important;
+    font-weight: bold;
+    font-size: 34rpx;
+}
+.comm-list-box {
+    padding: 20rpx 30rpx 30rpx 30rpx;
+}
+.tabs .tab-menu.cur:after {
+    border-radius: unset !important;
+    background-color: unset !important;
+    -webkit-transform: unset !important;
+            transform: unset !important;
+    border-top-left-radius: unset !important;
+    border-top-right-radius: unset !important;
+    border-bottom-right-radius: unset !important;
+    border-bottom-left-radius: unset !important;
+
+    content: '' !important;
+    width: 30rpx !important;
+    height: 30rpx !important;
+    position: absolute !important;
+    left: calc(50% - 15rpx) !important;
+    bottom: 0rpx !important;
+    border-top: 6rpx solid var(--projectCompareColor) !important;
+    border-right: 6rpx solid var(--projectCompareColor) !important;
+    border-top-right-radius: 100% !important;
+    -webkit-transform: rotate(-225deg) !important;
+            transform: rotate(-225deg) !important;
+    border-top-width: 6rpx !important;
+    border-top-style: solid !important;
+    border-top-color: var(--projectCompareColor) !important;
+    border-right-width: 6rpx !important;
+    border-right-style: solid !important;
+    border-right-color: var(--projectCompareColor) !important;
+}
+page {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+}
+.main {
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.top {
+    height: 320rpx;
+    background-color: var(--projectColor);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 240%;
+    border-radius: 0 0 50% 50%;
+    padding-top: 40rpx;
+    position: relative;
+    overflow: hidden;
+}
+.top .inner {
+    width: 100vw;
+    display: flex;
+    padding: 0 25rpx;
+    justify-items: center;
+}
+.top .inner .avatar {
+    height: 120rpx;
+    width: 120rpx;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.top .inner .avatar image {
+    height: 80rpx;
+    width: 80rpx;
+    border-radius: 50%;
+}
+.top .inner .right {
+    flex: 1;
+    margin-left: 20rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.top .inner .right .line1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25rpx;
+}
+.top .inner .right .line1 .name {
+    font-size: 36rpx;
+    font-weight: bold;
+    margin-right: 20rpx;
+    color: #fff;
+}
+.top .inner .right .line1 .type {
+    font-size: 24rpx;
+    padding: 0 25rpx;
+    background-color: #333;
+    color: var(--projectColor);
+    border-radius: 20rpx;
+}
+.top .inner .right .line2 {
+    font-size: 24rpx;
+    color: #fff;
+}
+.top .ex {
+    position: absolute;
+    bottom: 0;
+    height: 120rpx;
+    width: 100vw;
+    padding: 0 25rpx;
+    display: flex;
+    justify-content: center;
+}
+.top .ex .ex-inner {
+    background-color: var(--projectColor);
+    background-image: linear-gradient(45deg, var(--projectColor), var(--projectColorLight));
+    width: 100%;
+    height: inherit;
+    color: #fff;
+    border-top-left-radius: 25rpx;
+    border-top-right-radius: 25rpx;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 40rpx;
+}
+.top .ex .ex-inner image {
+    width: 30rpx;
+    height: 30rpx;
+    margin-right: 10rpx;
+}
+.top .ex .ex-inner .title {
+    font-size: 30rpx;
+    flex: 1;
+}
+.top .ex .ex-inner .desc {
+    width: 380rpx;
+    font-size: 26rpx;
+    text-align: right;
+}
+.meet-menu {
+    width: 100%;
+    padding: 25rpx;
+    margin-top: 30rpx;
+    background-color: #fff;
+}
+.meet-menu .inner {
+    width: 100%;
+    display: flex;
+    border-radius: 20rpx;
+    padding: 30rpx 0;
+    box-shadow: 6rpx 6rpx 18rpx rgba(216, 220, 223, 0.5);
+    border: 1rpx solid #ddd;
+}
+.meet-menu .inner .item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.meet-menu .inner .item .img {
+    position: relative;
+}
+.meet-menu .inner .item .img text {
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 62rpx;
+    z-index: 9999;
+}
+.meet-menu .inner .item image {
+    width: 60rpx;
+    height: 60rpx;
+}
+.meet-menu .inner .item text {
+    font-size: 24rpx;
+    color: #777;
+}
+.meet-menu .inner .item:last-child {
+    border-left: 1rpx solid #eee;
+}
+.list-menu {
+    width: 100%;
+    padding: 0 25rpx;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+.list-menu .item {
+    width: 100%;
+    display: flex;
+    font-size: 30rpx;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 35rpx 10rpx;
+    border-bottom: 1rpx solid #ddd;
+}
+.list-menu .item:last-child {
+    padding-bottom: 10rpx;
+}
+.list-menu .item:last-child {
+    border-bottom: 0rpx;
+}
+.list-menu .item .title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+.list-menu .item .title .title-ico {
+    margin-right: 20rpx;
+}
+

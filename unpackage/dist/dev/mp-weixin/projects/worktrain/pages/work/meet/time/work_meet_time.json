@@ -1,0 +1,12 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#1C9399",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "排期时段设置",
+  "usingComponents": {
+    "cmpt-picker-multi": "/cmpts/public/picker_multi/picker_multi_cmpt",
+    "cmpt-calendar": "/cmpts/public/calendar/calendar_meet/calendar_meet_cmpt",
+    "Admin_meet_time_form_tpl": "../../../admin/meet/time/admin_meet_time_form_tpl",
+    "admin_meet_time_form_tpl": "/projects/worktrain/pages/admin/meet/time/admin_meet_time_form_tpl"
+  }
+}

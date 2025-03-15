@@ -1,0 +1,1 @@
+<view><news-index-tpl vue-id="326edf91-1" compName="newsIndexTpl" data="{{$root.a0}}" bind:__l="__l"></news-index-tpl><block wx:if="{{skin.IS_SUB}}"><block><menu-tpl vue-id="326edf91-2" compName="menuTpl" data="{{({curMenu:'news_cate1',returnHome:false})}}" bind:__l="__l"></menu-tpl></block></block></view>

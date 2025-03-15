@@ -1,0 +1,421 @@
+开始转换……
+小程序路径:  C:/Users/liuxingyu/Desktop/TurboTrainning-main/TurboTrainning-main
+搜索到615个文件(含目录)，耗时：40ms
+
+开始分析文件
+分析文件信息完成，共186组数据
+开始转换文件组为vue文件
+转换进度: 1 / 372   fileKey：app
+转换进度: 2 / 372   fileKey：cmpts/biz/detail/detail_cmpt
+转换进度: 3 / 372   fileKey：cmpts/biz/foot/foot_cmpt
+转换进度: 4 / 372   fileKey：cmpts/public/calendar/calendar_comm/calendar_comm_cmpt
+[ERROR]prop oneDoDay 的默认值 null 与类型 String 不一致。    fileKey: cmpts/public/calendar/calendar_comm/calendar_comm_cmpt
+转换进度: 5 / 372   fileKey：cmpts/public/calendar/calendar_comm/din
+转换进度: 6 / 372   fileKey：cmpts/public/calendar/calendar_lib
+转换进度: 7 / 372   fileKey：cmpts/public/calendar/calendar_meet/calendar_meet_cmpt
+[ERROR]prop oneDoDay 的默认值 null 与类型 String 不一致。    fileKey: cmpts/public/calendar/calendar_meet/calendar_meet_cmpt
+转换进度: 8 / 372   fileKey：cmpts/public/calendar/date_select/date_select_cmpt
+转换进度: 9 / 372   fileKey：cmpts/public/calendar/time_select/time_select_cmpt
+[ERROR]prop endTimeStep 的默认值 47 与类型 String 不一致。    fileKey: cmpts/public/calendar/time_select/time_select_cmpt
+转换进度: 10 / 372   fileKey：cmpts/public/car_number/car_number_cmpt
+转换进度: 11 / 372   fileKey：cmpts/public/checkbox/checkbox_cmpt
+转换进度: 12 / 372   fileKey：cmpts/public/custom_nav/custom_nav_cmpt
+转换进度: 13 / 372   fileKey：cmpts/public/editor/editor_cmpt
+转换进度: 14 / 372   fileKey：cmpts/public/file/file_upload_cmpt
+转换进度: 15 / 372   fileKey：cmpts/public/form/form_set/field/form_set_field
+转换进度: 16 / 372   fileKey：cmpts/public/form/form_set/form_set_cmpt
+转换进度: 17 / 372   fileKey：cmpts/public/form/form_set_helper
+转换进度: 18 / 372   fileKey：cmpts/public/form/form_show/content/form_show_content
+转换进度: 19 / 372   fileKey：cmpts/public/form/form_show/form_show_cmpt
+
+[Tip] 检测到组件picker的mode为 region ，在App和H5里未实现，已使用组件region-picker进行替换。
+                    虽然已替换，但仍需注意picker在<form/>组件里面的取值问题(可能在formSubmit拿不address，需手动调整)。
+                    详情请参阅相关文档, file: cmpts/public/form/form_show/form_show_cmpt
+转换进度: 20 / 372   fileKey：cmpts/public/img/img_upload_cmpt
+转换进度: 21 / 372   fileKey：cmpts/public/list/comm_list_cmpt
+[ERROR]prop sortMenusDefaultIndex 的默认值 undefined 与类型 Number 不一致。    fileKey: cmpts/public/list/comm_list_cmpt
+转换进度: 22 / 372   fileKey：cmpts/public/modal/modal_cmpt
+转换进度: 23 / 372   fileKey：cmpts/public/picker/picker_cmpt
+转换进度: 24 / 372   fileKey：cmpts/public/picker_multi/picker_multi_cmpt
+转换进度: 25 / 372   fileKey：cmpts/public/picker_time/datetime_picker
+转换进度: 26 / 372   fileKey：cmpts/public/picker_time/picker_time_cmpt
+转换进度: 27 / 372   fileKey：cmpts/public/poster/poster_cmpt
+转换进度: 28 / 372   fileKey：cmpts/public/poster/poster_cmpt_helper
+转换进度: 29 / 372   fileKey：cmpts/public/poster/wxa-plugin-canvas/index/index
+转换进度: 30 / 372   fileKey：cmpts/public/poster/wxa-plugin-canvas/poster/index
+转换进度: 31 / 372   fileKey：cmpts/public/poster/wxa-plugin-canvas/poster/poster
+转换进度: 32 / 372   fileKey：cmpts/public/radio/radio_cmpt
+转换进度: 33 / 372   fileKey：cmpts/public/rows/rows_cmpt
+转换进度: 34 / 372   fileKey：cmpts/public/rows/rows_set_helper
+转换进度: 35 / 372   fileKey：cmpts/public/simple_list/simple_list_cmpt
+转换进度: 36 / 372   fileKey：cmpts/public/swiper/swiper_cmpt
+转换进度: 37 / 372   fileKey：cmpts/public/table/table_cmpt
+转换进度: 38 / 372   fileKey：comm/behavior/about_bh
+转换进度: 39 / 372   fileKey：comm/behavior/my_fav_bh
+转换进度: 40 / 372   fileKey：comm/behavior/my_foot_bh
+转换进度: 41 / 372   fileKey：comm/behavior/news_index_bh
+转换进度: 42 / 372   fileKey：comm/behavior/search_bh
+转换进度: 43 / 372   fileKey：comm/biz/admin_biz
+转换进度: 44 / 372   fileKey：comm/biz/base_biz
+转换进度: 45 / 372   fileKey：comm/biz/fav_biz
+转换进度: 46 / 372   fileKey：comm/biz/foot_biz
+转换进度: 47 / 372   fileKey：comm/biz/passport_biz
+转换进度: 48 / 372   fileKey：comm/biz/public_biz
+转换进度: 49 / 372   fileKey：comm/biz/search_biz
+转换进度: 50 / 372   fileKey：comm/constants
+转换进度: 51 / 372   fileKey：helper/cache_helper
+转换进度: 52 / 372   fileKey：helper/cloud_helper
+转换进度: 53 / 372   fileKey：helper/content_check_helper
+转换进度: 54 / 372   fileKey：helper/data_helper
+转换进度: 55 / 372   fileKey：helper/file_helper
+转换进度: 56 / 372   fileKey：helper/form_helper
+转换进度: 57 / 372   fileKey：helper/helper
+转换进度: 58 / 372   fileKey：helper/mini_helper
+转换进度: 59 / 372   fileKey：helper/page_helper
+转换进度: 60 / 372   fileKey：helper/pic_helper
+转换进度: 61 / 372   fileKey：helper/time_helper
+转换进度: 62 / 372   fileKey：helper/validate
+转换进度: 63 / 372   fileKey：lib/tools/base64_lib
+转换进度: 64 / 372   fileKey：lib/tools/lunar_lib
+转换进度: 65 / 372   fileKey：lib/tools/md5_lib
+转换进度: 66 / 372   fileKey：lib/tools/qrcode_lib
+转换进度: 67 / 372   fileKey：lib/tools/wxcharts-min
+转换进度: 68 / 372   fileKey：pages/test1/test1
+转换进度: 69 / 372   fileKey：projects/worktrain/biz/admin_meet_biz
+转换进度: 70 / 372   fileKey：projects/worktrain/biz/admin_news_biz
+转换进度: 71 / 372   fileKey：projects/worktrain/biz/meet_biz
+转换进度: 72 / 372   fileKey：projects/worktrain/biz/news_biz
+转换进度: 73 / 372   fileKey：projects/worktrain/biz/project_biz
+转换进度: 74 / 372   fileKey：projects/worktrain/biz/work_biz
+转换进度: 75 / 372   fileKey：projects/worktrain/pages/about/index/about_index
+转换进度: 76 / 372   fileKey：projects/worktrain/pages/about/list/about_list
+[WARN]文件C:/Users/liuxingyu/Desktop/TurboTrainning-main/TurboTrainning-main/miniprogram/projects/worktrain/pages/about/index/about_index不存在
+转换进度: 77 / 372   fileKey：projects/worktrain/pages/admin/content/admin_content
+转换进度: 78 / 372   fileKey：projects/worktrain/pages/admin/index/home/admin_home
+转换进度: 79 / 372   fileKey：projects/worktrain/pages/admin/index/login/admin_login
+转换进度: 80 / 372   fileKey：projects/worktrain/pages/admin/meet/add/admin_meet_add
+转换进度: 81 / 372   fileKey：projects/worktrain/pages/admin/meet/add/admin_meet_form_tpl
+转换进度: 82 / 372   fileKey：projects/worktrain/pages/admin/meet/edit/admin_meet_edit
+转换进度: 83 / 372   fileKey：projects/worktrain/pages/admin/meet/export/admin_join_export
+转换进度: 84 / 372   fileKey：projects/worktrain/pages/admin/meet/join/admin_meet_join
+转换进度: 85 / 372   fileKey：projects/worktrain/pages/admin/meet/join/admin_meet_join_bh
+转换进度: 86 / 372   fileKey：projects/worktrain/pages/admin/meet/join/admin_meet_join_tpl
+转换进度: 87 / 372   fileKey：projects/worktrain/pages/admin/meet/list/admin_meet_list
+转换进度: 88 / 372   fileKey：projects/worktrain/pages/admin/meet/record/admin_meet_record
+转换进度: 89 / 372   fileKey：projects/worktrain/pages/admin/meet/record/admin_meet_record_bh
+转换进度: 90 / 372   fileKey：projects/worktrain/pages/admin/meet/record/admin_meet_record_tpl
+转换进度: 91 / 372   fileKey：projects/worktrain/pages/admin/meet/scan/admin_meet_scan
+转换进度: 92 / 372   fileKey：projects/worktrain/pages/admin/meet/scan/admin_meet_scan_bh
+转换进度: 93 / 372   fileKey：projects/worktrain/pages/admin/meet/scan/admin_meet_scan_tpl
+转换进度: 94 / 372   fileKey：projects/worktrain/pages/admin/meet/temp/admin_meet_temp
+转换进度: 95 / 372   fileKey：projects/worktrain/pages/admin/meet/temp/admin_meet_temp_bh
+转换进度: 96 / 372   fileKey：projects/worktrain/pages/admin/meet/temp/admin_meet_temp_tpl
+转换进度: 97 / 372   fileKey：projects/worktrain/pages/admin/meet/time/admin_meet_time
+转换进度: 98 / 372   fileKey：projects/worktrain/pages/admin/meet/time/admin_meet_time_bh
+转换进度: 99 / 372   fileKey：projects/worktrain/pages/admin/meet/time/admin_meet_time_form_tpl
+转换进度: 100 / 372   fileKey：projects/worktrain/pages/admin/mgr/add/admin_mgr_add
+转换进度: 101 / 372   fileKey：projects/worktrain/pages/admin/mgr/edit/admin_mgr_edit
+转换进度: 102 / 372   fileKey：projects/worktrain/pages/admin/mgr/list/admin_mgr_list
+转换进度: 103 / 372   fileKey：projects/worktrain/pages/admin/mgr/log/admin_log_list
+转换进度: 104 / 372   fileKey：projects/worktrain/pages/admin/mgr/pwd/admin_mgr_pwd
+转换进度: 105 / 372   fileKey：projects/worktrain/pages/admin/news/add/admin_news_add
+转换进度: 106 / 372   fileKey：projects/worktrain/pages/admin/news/admin_news_form_tpl
+转换进度: 107 / 372   fileKey：projects/worktrain/pages/admin/news/edit/admin_news_edit
+转换进度: 108 / 372   fileKey：projects/worktrain/pages/admin/news/list/admin_news_list
+转换进度: 109 / 372   fileKey：projects/worktrain/pages/admin/setup/about/admin_setup_about
+转换进度: 110 / 372   fileKey：projects/worktrain/pages/admin/setup/about_list/admin_setup_about_list
+转换进度: 111 / 372   fileKey：projects/worktrain/pages/admin/setup/qr/admin_setup_qr
+转换进度: 112 / 372   fileKey：projects/worktrain/pages/admin/user/detail/admin_user_detail
+转换进度: 113 / 372   fileKey：projects/worktrain/pages/admin/user/export/admin_user_export
+转换进度: 114 / 372   fileKey：projects/worktrain/pages/admin/user/list/admin_user_list
+转换进度: 115 / 372   fileKey：projects/worktrain/pages/default/index/default_index
+转换进度: 116 / 372   fileKey：projects/worktrain/pages/meet/calendar/meet_calendar
+转换进度: 117 / 372   fileKey：projects/worktrain/pages/meet/detail/meet_detail
+转换进度: 118 / 372   fileKey：projects/worktrain/pages/meet/index/meet_index
+转换进度: 119 / 372   fileKey：projects/worktrain/pages/meet/join/meet_join
+转换进度: 120 / 372   fileKey：projects/worktrain/pages/meet/my_join_detail/meet_my_join_detail
+转换进度: 121 / 372   fileKey：projects/worktrain/pages/meet/my_join_list/meet_my_join_list
+转换进度: 122 / 372   fileKey：projects/worktrain/pages/my/edit/my_edit
+转换进度: 123 / 372   fileKey：projects/worktrain/pages/my/edit/user_form
+转换进度: 124 / 372   fileKey：projects/worktrain/pages/my/fav/my_fav
+转换进度: 125 / 372   fileKey：projects/worktrain/pages/my/foot/my_foot
+转换进度: 126 / 372   fileKey：projects/worktrain/pages/my/index/my_index
+转换进度: 127 / 372   fileKey：projects/worktrain/pages/my/reg/my_reg
+转换进度: 128 / 372   fileKey：projects/worktrain/pages/news/cate1/news_cate1
+转换进度: 129 / 372   fileKey：projects/worktrain/pages/news/cate2/news_cate2
+转换进度: 130 / 372   fileKey：projects/worktrain/pages/news/detail/news_detail
+转换进度: 131 / 372   fileKey：projects/worktrain/pages/news/index/news_index
+转换进度: 132 / 372   fileKey：projects/worktrain/pages/search/search
+转换进度: 133 / 372   fileKey：projects/worktrain/pages/tpls/menu_tpl
+转换进度: 134 / 372   fileKey：projects/worktrain/pages/work/index/home/work_home
+转换进度: 135 / 372   fileKey：projects/worktrain/pages/work/index/login/work_login
+转换进度: 136 / 372   fileKey：projects/worktrain/pages/work/index/pwd/work_pwd
+转换进度: 137 / 372   fileKey：projects/worktrain/pages/work/meet/edit/work_meet_edit
+转换进度: 138 / 372   fileKey：projects/worktrain/pages/work/meet/join/work_meet_join
+转换进度: 139 / 372   fileKey：projects/worktrain/pages/work/meet/record/work_meet_record
+转换进度: 140 / 372   fileKey：projects/worktrain/pages/work/meet/scan/work_meet_scan
+转换进度: 141 / 372   fileKey：projects/worktrain/pages/work/meet/temp/work_meet_temp
+转换进度: 142 / 372   fileKey：projects/worktrain/pages/work/meet/time/work_meet_time
+转换进度: 143 / 372   fileKey：projects/worktrain/public/project_setting
+转换进度: 144 / 372   fileKey：projects/worktrain/style/skin
+转换进度: 145 / 372   fileKey：projects/worktrain/style/work
+转换进度: 146 / 372   fileKey：setting/setting
+转换进度: 147 / 372   fileKey：sitemap
+转换进度: 148 / 372   fileKey：style/base/animation
+转换进度: 149 / 372   fileKey：style/base/avatar
+转换进度: 150 / 372   fileKey：style/base/background
+转换进度: 151 / 372   fileKey：style/base/bar
+转换进度: 152 / 372   fileKey：style/base/base
+转换进度: 153 / 372   fileKey：style/base/border
+转换进度: 154 / 372   fileKey：style/base/button
+转换进度: 155 / 372   fileKey：style/base/comm
+转换进度: 156 / 372   fileKey：style/base/form
+转换进度: 157 / 372   fileKey：style/base/icon
+转换进度: 158 / 372   fileKey：style/base/image
+转换进度: 159 / 372   fileKey：style/base/layout
+转换进度: 160 / 372   fileKey：style/base/list
+转换进度: 161 / 372   fileKey：style/base/load
+转换进度: 162 / 372   fileKey：style/base/modal
+转换进度: 163 / 372   fileKey：style/base/nav
+转换进度: 164 / 372   fileKey：style/base/shadow
+转换进度: 165 / 372   fileKey：style/base/table
+转换进度: 166 / 372   fileKey：style/base/tag
+转换进度: 167 / 372   fileKey：style/base/text
+转换进度: 168 / 372   fileKey：style/project/admin_list_style
+转换进度: 169 / 372   fileKey：style/project/my_fav_style
+转换进度: 170 / 372   fileKey：style/project/my_foot_style
+转换进度: 171 / 372   fileKey：style/project/search_style
+转换进度: 172 / 372   fileKey：style/public/admin
+转换进度: 173 / 372   fileKey：style/public/article_list
+转换进度: 174 / 372   fileKey：style/public/comm_box_list
+转换进度: 175 / 372   fileKey：style/public/detail
+转换进度: 176 / 372   fileKey：style/public/project
+转换进度: 177 / 372   fileKey：tpls/project/about_tpl
+转换进度: 178 / 372   fileKey：tpls/project/my_fav_tpl
+转换进度: 179 / 372   fileKey：tpls/project/my_foot_tpl
+转换进度: 180 / 372   fileKey：tpls/project/news_index_tpl
+转换进度: 181 / 372   fileKey：tpls/project/search_tpl
+转换进度: 182 / 372   fileKey：tpls/public/admin_forms_detail_tpl
+转换进度: 183 / 372   fileKey：tpls/public/base_list_tpl
+转换进度: 184 / 372   fileKey：tpls/public/list_load_tpl
+转换进度: 185 / 372   fileKey：tpls/public/top_tpl
+转换进度: 186 / 372   fileKey：tpls/wxs/tools
+开始二次遍历及生成vue文件
+转换进度: 187 / 372   fileKey：app
+转换进度: 188 / 372   fileKey：cmpts/biz/detail/detail_cmpt
+转换进度: 189 / 372   fileKey：cmpts/biz/foot/foot_cmpt
+转换进度: 190 / 372   fileKey：cmpts/public/calendar/calendar_comm/calendar_comm_cmpt
+转换进度: 191 / 372   fileKey：cmpts/public/calendar/calendar_comm/din
+转换进度: 192 / 372   fileKey：cmpts/public/calendar/calendar_lib
+转换进度: 193 / 372   fileKey：cmpts/public/calendar/calendar_meet/calendar_meet_cmpt
+转换进度: 194 / 372   fileKey：cmpts/public/calendar/date_select/date_select_cmpt
+转换进度: 195 / 372   fileKey：cmpts/public/calendar/time_select/time_select_cmpt
+转换进度: 196 / 372   fileKey：cmpts/public/car_number/car_number_cmpt
+转换进度: 197 / 372   fileKey：cmpts/public/checkbox/checkbox_cmpt
+转换进度: 198 / 372   fileKey：cmpts/public/custom_nav/custom_nav_cmpt
+转换进度: 199 / 372   fileKey：cmpts/public/editor/editor_cmpt
+转换进度: 200 / 372   fileKey：cmpts/public/file/file_upload_cmpt
+转换进度: 201 / 372   fileKey：cmpts/public/form/form_set/field/form_set_field
+转换进度: 202 / 372   fileKey：cmpts/public/form/form_set/form_set_cmpt
+转换进度: 203 / 372   fileKey：cmpts/public/form/form_set_helper
+转换进度: 204 / 372   fileKey：cmpts/public/form/form_show/content/form_show_content
+转换进度: 205 / 372   fileKey：cmpts/public/form/form_show/form_show_cmpt
+转换进度: 206 / 372   fileKey：cmpts/public/img/img_upload_cmpt
+转换进度: 207 / 372   fileKey：cmpts/public/list/comm_list_cmpt
+转换进度: 208 / 372   fileKey：cmpts/public/modal/modal_cmpt
+转换进度: 209 / 372   fileKey：cmpts/public/picker/picker_cmpt
+转换进度: 210 / 372   fileKey：cmpts/public/picker_multi/picker_multi_cmpt
+转换进度: 211 / 372   fileKey：cmpts/public/picker_time/datetime_picker
+转换进度: 212 / 372   fileKey：cmpts/public/picker_time/picker_time_cmpt
+转换进度: 213 / 372   fileKey：cmpts/public/poster/poster_cmpt
+转换进度: 214 / 372   fileKey：cmpts/public/poster/poster_cmpt_helper
+转换进度: 215 / 372   fileKey：cmpts/public/poster/wxa-plugin-canvas/index/index
+转换进度: 216 / 372   fileKey：cmpts/public/poster/wxa-plugin-canvas/poster/index
+转换进度: 217 / 372   fileKey：cmpts/public/poster/wxa-plugin-canvas/poster/poster
+转换进度: 218 / 372   fileKey：cmpts/public/radio/radio_cmpt
+转换进度: 219 / 372   fileKey：cmpts/public/rows/rows_cmpt
+转换进度: 220 / 372   fileKey：cmpts/public/rows/rows_set_helper
+转换进度: 221 / 372   fileKey：cmpts/public/simple_list/simple_list_cmpt
+转换进度: 222 / 372   fileKey：cmpts/public/swiper/swiper_cmpt
+转换进度: 223 / 372   fileKey：cmpts/public/table/table_cmpt
+转换进度: 224 / 372   fileKey：comm/behavior/about_bh
+转换进度: 225 / 372   fileKey：comm/behavior/my_fav_bh
+转换进度: 226 / 372   fileKey：comm/behavior/my_foot_bh
+转换进度: 227 / 372   fileKey：comm/behavior/news_index_bh
+转换进度: 228 / 372   fileKey：comm/behavior/search_bh
+转换进度: 229 / 372   fileKey：comm/biz/admin_biz
+转换进度: 230 / 372   fileKey：comm/biz/base_biz
+转换进度: 231 / 372   fileKey：comm/biz/fav_biz
+转换进度: 232 / 372   fileKey：comm/biz/foot_biz
+转换进度: 233 / 372   fileKey：comm/biz/passport_biz
+转换进度: 234 / 372   fileKey：comm/biz/public_biz
+转换进度: 235 / 372   fileKey：comm/biz/search_biz
+转换进度: 236 / 372   fileKey：comm/constants
+转换进度: 237 / 372   fileKey：helper/cache_helper
+转换进度: 238 / 372   fileKey：helper/cloud_helper
+转换进度: 239 / 372   fileKey：helper/content_check_helper
+转换进度: 240 / 372   fileKey：helper/data_helper
+转换进度: 241 / 372   fileKey：helper/file_helper
+转换进度: 242 / 372   fileKey：helper/form_helper
+转换进度: 243 / 372   fileKey：helper/helper
+转换进度: 244 / 372   fileKey：helper/mini_helper
+转换进度: 245 / 372   fileKey：helper/page_helper
+转换进度: 246 / 372   fileKey：helper/pic_helper
+转换进度: 247 / 372   fileKey：helper/time_helper
+转换进度: 248 / 372   fileKey：helper/validate
+转换进度: 249 / 372   fileKey：lib/tools/base64_lib
+转换进度: 250 / 372   fileKey：lib/tools/lunar_lib
+转换进度: 251 / 372   fileKey：lib/tools/md5_lib
+转换进度: 252 / 372   fileKey：lib/tools/qrcode_lib
+转换进度: 253 / 372   fileKey：lib/tools/wxcharts-min
+转换进度: 254 / 372   fileKey：pages/test1/test1
+转换进度: 255 / 372   fileKey：projects/worktrain/biz/admin_meet_biz
+转换进度: 256 / 372   fileKey：projects/worktrain/biz/admin_news_biz
+转换进度: 257 / 372   fileKey：projects/worktrain/biz/meet_biz
+转换进度: 258 / 372   fileKey：projects/worktrain/biz/news_biz
+转换进度: 259 / 372   fileKey：projects/worktrain/biz/project_biz
+转换进度: 260 / 372   fileKey：projects/worktrain/biz/work_biz
+转换进度: 261 / 372   fileKey：projects/worktrain/pages/about/index/about_index
+转换进度: 262 / 372   fileKey：projects/worktrain/pages/about/list/about_list
+转换进度: 263 / 372   fileKey：projects/worktrain/pages/admin/content/admin_content
+转换进度: 264 / 372   fileKey：projects/worktrain/pages/admin/index/home/admin_home
+转换进度: 265 / 372   fileKey：projects/worktrain/pages/admin/index/login/admin_login
+转换进度: 266 / 372   fileKey：projects/worktrain/pages/admin/meet/add/admin_meet_add
+转换进度: 267 / 372   fileKey：projects/worktrain/pages/admin/meet/add/admin_meet_form_tpl
+转换进度: 268 / 372   fileKey：projects/worktrain/pages/admin/meet/edit/admin_meet_edit
+转换进度: 269 / 372   fileKey：projects/worktrain/pages/admin/meet/export/admin_join_export
+转换进度: 270 / 372   fileKey：projects/worktrain/pages/admin/meet/join/admin_meet_join
+转换进度: 271 / 372   fileKey：projects/worktrain/pages/admin/meet/join/admin_meet_join_bh
+转换进度: 272 / 372   fileKey：projects/worktrain/pages/admin/meet/join/admin_meet_join_tpl
+转换进度: 273 / 372   fileKey：projects/worktrain/pages/admin/meet/list/admin_meet_list
+转换进度: 274 / 372   fileKey：projects/worktrain/pages/admin/meet/record/admin_meet_record
+转换进度: 275 / 372   fileKey：projects/worktrain/pages/admin/meet/record/admin_meet_record_bh
+转换进度: 276 / 372   fileKey：projects/worktrain/pages/admin/meet/record/admin_meet_record_tpl
+转换进度: 277 / 372   fileKey：projects/worktrain/pages/admin/meet/scan/admin_meet_scan
+转换进度: 278 / 372   fileKey：projects/worktrain/pages/admin/meet/scan/admin_meet_scan_bh
+转换进度: 279 / 372   fileKey：projects/worktrain/pages/admin/meet/scan/admin_meet_scan_tpl
+转换进度: 280 / 372   fileKey：projects/worktrain/pages/admin/meet/temp/admin_meet_temp
+转换进度: 281 / 372   fileKey：projects/worktrain/pages/admin/meet/temp/admin_meet_temp_bh
+转换进度: 282 / 372   fileKey：projects/worktrain/pages/admin/meet/temp/admin_meet_temp_tpl
+转换进度: 283 / 372   fileKey：projects/worktrain/pages/admin/meet/time/admin_meet_time
+转换进度: 284 / 372   fileKey：projects/worktrain/pages/admin/meet/time/admin_meet_time_bh
+转换进度: 285 / 372   fileKey：projects/worktrain/pages/admin/meet/time/admin_meet_time_form_tpl
+转换进度: 286 / 372   fileKey：projects/worktrain/pages/admin/mgr/add/admin_mgr_add
+转换进度: 287 / 372   fileKey：projects/worktrain/pages/admin/mgr/edit/admin_mgr_edit
+转换进度: 288 / 372   fileKey：projects/worktrain/pages/admin/mgr/list/admin_mgr_list
+转换进度: 289 / 372   fileKey：projects/worktrain/pages/admin/mgr/log/admin_log_list
+转换进度: 290 / 372   fileKey：projects/worktrain/pages/admin/mgr/pwd/admin_mgr_pwd
+转换进度: 291 / 372   fileKey：projects/worktrain/pages/admin/news/add/admin_news_add
+转换进度: 292 / 372   fileKey：projects/worktrain/pages/admin/news/admin_news_form_tpl
+转换进度: 293 / 372   fileKey：projects/worktrain/pages/admin/news/edit/admin_news_edit
+转换进度: 294 / 372   fileKey：projects/worktrain/pages/admin/news/list/admin_news_list
+转换进度: 295 / 372   fileKey：projects/worktrain/pages/admin/setup/about/admin_setup_about
+转换进度: 296 / 372   fileKey：projects/worktrain/pages/admin/setup/about_list/admin_setup_about_list
+转换进度: 297 / 372   fileKey：projects/worktrain/pages/admin/setup/qr/admin_setup_qr
+转换进度: 298 / 372   fileKey：projects/worktrain/pages/admin/user/detail/admin_user_detail
+转换进度: 299 / 372   fileKey：projects/worktrain/pages/admin/user/export/admin_user_export
+转换进度: 300 / 372   fileKey：projects/worktrain/pages/admin/user/list/admin_user_list
+转换进度: 301 / 372   fileKey：projects/worktrain/pages/default/index/default_index
+转换进度: 302 / 372   fileKey：projects/worktrain/pages/meet/calendar/meet_calendar
+转换进度: 303 / 372   fileKey：projects/worktrain/pages/meet/detail/meet_detail
+转换进度: 304 / 372   fileKey：projects/worktrain/pages/meet/index/meet_index
+转换进度: 305 / 372   fileKey：projects/worktrain/pages/meet/join/meet_join
+转换进度: 306 / 372   fileKey：projects/worktrain/pages/meet/my_join_detail/meet_my_join_detail
+转换进度: 307 / 372   fileKey：projects/worktrain/pages/meet/my_join_list/meet_my_join_list
+转换进度: 308 / 372   fileKey：projects/worktrain/pages/my/edit/my_edit
+转换进度: 309 / 372   fileKey：projects/worktrain/pages/my/edit/user_form
+转换进度: 310 / 372   fileKey：projects/worktrain/pages/my/fav/my_fav
+转换进度: 311 / 372   fileKey：projects/worktrain/pages/my/foot/my_foot
+转换进度: 312 / 372   fileKey：projects/worktrain/pages/my/index/my_index
+转换进度: 313 / 372   fileKey：projects/worktrain/pages/my/reg/my_reg
+转换进度: 314 / 372   fileKey：projects/worktrain/pages/news/cate1/news_cate1
+转换进度: 315 / 372   fileKey：projects/worktrain/pages/news/cate2/news_cate2
+转换进度: 316 / 372   fileKey：projects/worktrain/pages/news/detail/news_detail
+转换进度: 317 / 372   fileKey：projects/worktrain/pages/news/index/news_index
+转换进度: 318 / 372   fileKey：projects/worktrain/pages/search/search
+转换进度: 319 / 372   fileKey：projects/worktrain/pages/tpls/menu_tpl
+转换进度: 320 / 372   fileKey：projects/worktrain/pages/work/index/home/work_home
+转换进度: 321 / 372   fileKey：projects/worktrain/pages/work/index/login/work_login
+转换进度: 322 / 372   fileKey：projects/worktrain/pages/work/index/pwd/work_pwd
+转换进度: 323 / 372   fileKey：projects/worktrain/pages/work/meet/edit/work_meet_edit
+转换进度: 324 / 372   fileKey：projects/worktrain/pages/work/meet/join/work_meet_join
+转换进度: 325 / 372   fileKey：projects/worktrain/pages/work/meet/record/work_meet_record
+转换进度: 326 / 372   fileKey：projects/worktrain/pages/work/meet/scan/work_meet_scan
+转换进度: 327 / 372   fileKey：projects/worktrain/pages/work/meet/temp/work_meet_temp
+转换进度: 328 / 372   fileKey：projects/worktrain/pages/work/meet/time/work_meet_time
+转换进度: 329 / 372   fileKey：projects/worktrain/public/project_setting
+转换进度: 330 / 372   fileKey：projects/worktrain/style/skin
+转换进度: 331 / 372   fileKey：projects/worktrain/style/work
+转换进度: 332 / 372   fileKey：setting/setting
+转换进度: 333 / 372   fileKey：sitemap
+转换进度: 334 / 372   fileKey：style/base/animation
+转换进度: 335 / 372   fileKey：style/base/avatar
+转换进度: 336 / 372   fileKey：style/base/background
+转换进度: 337 / 372   fileKey：style/base/bar
+转换进度: 338 / 372   fileKey：style/base/base
+转换进度: 339 / 372   fileKey：style/base/border
+转换进度: 340 / 372   fileKey：style/base/button
+转换进度: 341 / 372   fileKey：style/base/comm
+转换进度: 342 / 372   fileKey：style/base/form
+转换进度: 343 / 372   fileKey：style/base/icon
+转换进度: 344 / 372   fileKey：style/base/image
+转换进度: 345 / 372   fileKey：style/base/layout
+转换进度: 346 / 372   fileKey：style/base/list
+转换进度: 347 / 372   fileKey：style/base/load
+转换进度: 348 / 372   fileKey：style/base/modal
+转换进度: 349 / 372   fileKey：style/base/nav
+转换进度: 350 / 372   fileKey：style/base/shadow
+转换进度: 351 / 372   fileKey：style/base/table
+转换进度: 352 / 372   fileKey：style/base/tag
+转换进度: 353 / 372   fileKey：style/base/text
+转换进度: 354 / 372   fileKey：style/project/admin_list_style
+转换进度: 355 / 372   fileKey：style/project/my_fav_style
+转换进度: 356 / 372   fileKey：style/project/my_foot_style
+转换进度: 357 / 372   fileKey：style/project/search_style
+转换进度: 358 / 372   fileKey：style/public/admin
+转换进度: 359 / 372   fileKey：style/public/article_list
+转换进度: 360 / 372   fileKey：style/public/comm_box_list
+转换进度: 361 / 372   fileKey：style/public/detail
+转换进度: 362 / 372   fileKey：style/public/project
+转换进度: 363 / 372   fileKey：tpls/project/about_tpl
+转换进度: 364 / 372   fileKey：tpls/project/my_fav_tpl
+转换进度: 365 / 372   fileKey：tpls/project/my_foot_tpl
+转换进度: 366 / 372   fileKey：tpls/project/news_index_tpl
+转换进度: 367 / 372   fileKey：tpls/project/search_tpl
+转换进度: 368 / 372   fileKey：tpls/public/admin_forms_detail_tpl
+转换进度: 369 / 372   fileKey：tpls/public/base_list_tpl
+转换进度: 370 / 372   fileKey：tpls/public/list_load_tpl
+转换进度: 371 / 372   fileKey：tpls/public/top_tpl
+转换进度: 372 / 372   fileKey：tpls/wxs/tools
+write pages.json success!
+write manifest.json success!
+write main.js success!
+write package.json success!
+
+
+统计信息：
+
+Component数量: 27
+Page数量: 57
+支付api数量: 0
+登录api数量: 0
+chooseMedia数量: 3
+getLocation数量: 0
+getRelationNodes数量: 0
+<ad/>数量: 0
+<map/>数量: 0
+<video/>数量: 0
+Vant组件: ， 数量：0
+
+项目转换完成！
+用时: 59.604s
+工具版本：v2.2.6
+在该小程序项目的同级目录可以看到_uni结尾的项目，即是转换好的uniapp项目，相关日志在该目录里。
+
+使用说明：
+    1.因各种原因，本工具并非100%完美转换！部分语法仍需人工处理！
+    2.工具转换原理及说明文档参考：https://l4rz4zwpx7.k.topthink.com/@kmrvzg72lx/
+    3.如遇运行报错，请添加QQ群(五群：536178289)带图反馈或https://github.com/zhangdaren/miniprogram-to-uniapp提交Issue！
+    4.转换后请查阅_uni目录或_uni-cli目录里的 README.md 和 transform.log
+
+

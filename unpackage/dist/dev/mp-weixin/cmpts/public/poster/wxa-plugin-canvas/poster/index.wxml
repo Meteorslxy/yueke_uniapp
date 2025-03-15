@@ -1,0 +1,1 @@
+<view><view data-event-opts="{{[['tap',[['onCreate',['$event']]]]]}}" bindtap="__e"><slot></slot></view><we-canvas vue-id="0bdab890-1" id="poster" data-event-opts="{{[['^success',[['onCreateSuccess',['$event',['o',['tagId','poster']]]]]],['^fail',[['onCreateFail',['$event',['o',['tagId','poster']]]]]]]}}" bind:success="__e" bind:fail="__e" bind:__l="__l"></we-canvas></view>

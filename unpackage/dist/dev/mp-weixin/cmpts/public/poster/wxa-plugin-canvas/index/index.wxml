@@ -1,0 +1,1 @@
+<view class="container"><canvas class="{{['canvas '+(debug?'debug':'pro')]}}" style="{{('width: '+pxWidth+'px; height: '+pxHeight+'px;')}}" id="canvasid" type="2d"></canvas></view>

@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#2499f2",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "用户资料导出",
+  "usingComponents": {}
+}

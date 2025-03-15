@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "详细内容",
+  "usingComponents": {
+    "cmpt-detail": "/cmpts/biz/detail/detail_cmpt"
+  }
+}

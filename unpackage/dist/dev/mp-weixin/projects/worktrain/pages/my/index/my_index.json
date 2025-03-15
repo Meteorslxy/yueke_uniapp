@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "个人中心",
+  "usingComponents": {
+    "menuTpl": "../../tpls/menu_tpl",
+    "menu-tpl": "/projects/worktrain/pages/tpls/menu_tpl"
+  }
+}

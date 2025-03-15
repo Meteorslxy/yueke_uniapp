@@ -1,0 +1,709 @@
+{
+	  "easycom": {
+	    "custom": {
+	      "^menuTpl$": "@/projects/worktrain/pages/tpls/menu_tpl"
+	    }
+	  },
+	"pages": [
+		{
+			"path": "projects/worktrain/pages/default/index/default_index",
+			"style": {
+				"usingComponents": {
+					"menuTpl": "../../tpls/menu_tpl.vue"
+				},
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/about/list/about_list",
+			"style": {
+				"usingComponents": {
+					"About_index": "../index/about_index.vue"
+				},
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/about/index/about_index",
+			"style": {
+				"usingComponents": {
+					"About_tpl": "../../../../../tpls/project/about_tpl.vue"
+				},
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/search/search",
+			"style": {
+				"usingComponents": {
+					"Search_tpl": "../../../../tpls/project/search_tpl.vue"
+				},
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/my/index/my_index",
+			"style": {
+				"usingComponents": {
+					"menuTpl": "../../tpls/menu_tpl.vue"
+				},
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/my/reg/my_reg",
+			"style": {
+				"usingComponents": {
+					"cmpt-form-show": "/cmpts/public/form/form_show/form_show_cmpt",
+					"User_form": "../edit/user_form.vue"
+				},
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/my/edit/my_edit",
+			"style": {
+				"usingComponents": {
+					"cmpt-form-show": "/cmpts/public/form/form_show/form_show_cmpt",
+					"User_form": "./user_form.vue"
+				},
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/my/foot/my_foot",
+			"style": {
+				"usingComponents": {
+					"My_foot_tpl": "../../../../../tpls/project/my_foot_tpl.vue"
+				},
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "历史浏览"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/my/fav/my_fav",
+			"style": {
+				"usingComponents": {
+					"My_fav_tpl": "../../../../../tpls/project/my_fav_tpl.vue"
+				},
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/news/index/news_index",
+			"style": {
+				"usingComponents": {
+					"newsIndexTpl": "../../../../../tpls/project/news_index_tpl.vue",
+					"menuTpl": "../../tpls/menu_tpl.vue"
+				},
+				"disableScroll": true,
+				"navigationBarTitleText": "公告"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/news/detail/news_detail",
+			"style": {
+				"usingComponents": {
+					"cmpt-detail": "/cmpts/biz/detail/detail_cmpt"
+				},
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "详细内容"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/news/cate1/news_cate1",
+			"style": {
+				"usingComponents": {
+					"newsIndexTpl": "../../../../../tpls/project/news_index_tpl.vue",
+					"menuTpl": "../../tpls/menu_tpl.vue"
+				},
+				"disableScroll": true,
+				"navigationBarTitleText": "资讯"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/news/cate2/news_cate2",
+			"style": {
+				"usingComponents": {
+					"newsIndexTpl": "../../../../../tpls/project/news_index_tpl.vue",
+					"menuTpl": "../../tpls/menu_tpl.vue"
+				},
+				"disableScroll": true,
+				"navigationBarTitleText": "资讯"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/news/list/admin_news_list",
+			"style": {
+				"usingComponents": {
+					"listLoadTpl": "../../../../../../tpls/public/list_load_tpl.vue"
+				},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"disableScroll": true
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/news/add/admin_news_add",
+			"style": {
+				"usingComponents": {
+					"cmpt-img-upload": "/cmpts/public/img/img_upload_cmpt",
+					"cmpt-form-show": "/cmpts/public/form/form_show/form_show_cmpt",
+					"Admin_news_form_tpl": "../admin_news_form_tpl.vue"
+				},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/news/edit/admin_news_edit",
+			"style": {
+				"usingComponents": {
+					"cmpt-img-upload": "/cmpts/public/img/img_upload_cmpt",
+					"cmpt-form-show": "/cmpts/public/form/form_show/form_show_cmpt",
+					"Admin_news_form_tpl": "../admin_news_form_tpl.vue"
+				},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/setup/about/admin_setup_about",
+			"style": {
+				"usingComponents": {
+					"cmpt-editor": "/cmpts/public/editor/editor_cmpt"
+				},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "编辑"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/setup/about_list/admin_setup_about_list",
+			"style": {
+				"usingComponents": {},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "单页文章"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/setup/qr/admin_setup_qr",
+			"style": {
+				"usingComponents": {},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "小程序码"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/index/home/admin_home",
+			"style": {
+				"usingComponents": {
+					"cmpt-foot": "/cmpts/biz/foot/foot_cmpt"
+				},
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "后台管理"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/index/login/admin_login",
+			"style": {
+				"usingComponents": {
+					"cmpt-foot": "/cmpts/biz/foot/foot_cmpt"
+				},
+				"disableScroll": true,
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/content/admin_content",
+			"style": {
+				"usingComponents": {
+					"cmpt-editor": "/cmpts/public/editor/editor_cmpt"
+				},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "后台-详细内容编辑"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/mgr/log/admin_log_list",
+			"style": {
+				"usingComponents": {
+					"listLoadTpl": "../../../../../../tpls/public/list_load_tpl.vue"
+				},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"disableScroll": true,
+				"navigationBarTitleText": "后台-操作日志"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/mgr/edit/admin_mgr_edit",
+			"style": {
+				"usingComponents": {},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "修改管理员"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/mgr/list/admin_mgr_list",
+			"style": {
+				"usingComponents": {
+					"listLoadTpl": "../../../../../../tpls/public/list_load_tpl.vue"
+				},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "管理员管理"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/mgr/add/admin_mgr_add",
+			"style": {
+				"usingComponents": {},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "添加管理员"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/mgr/pwd/admin_mgr_pwd",
+			"style": {
+				"usingComponents": {},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "管理员密码修改"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/user/list/admin_user_list",
+			"style": {
+				"usingComponents": {
+					"listLoadTpl": "../../../../../../tpls/public/list_load_tpl.vue"
+				},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"disableScroll": true,
+				"navigationBarTitleText": "用户管理"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/user/detail/admin_user_detail",
+			"style": {
+				"usingComponents": {
+					"adminFormsDetailTpl": "../../../../../../tpls/public/admin_forms_detail_tpl.vue"
+				},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "用户详情"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/user/export/admin_user_export",
+			"style": {
+				"usingComponents": {},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "用户资料导出"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/meet/index/meet_index",
+			"style": {
+				"usingComponents": {
+					"listLoadTpl": "../../../../../tpls/public/list_load_tpl.vue"
+				},
+				"disableScroll": true,
+				"navigationBarTitleText": "预约"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/meet/calendar/meet_calendar",
+			"style": {
+				"usingComponents": {
+					"cmpt-calendar": "/cmpts/public/calendar/calendar_comm/calendar_comm_cmpt",
+					"menuTpl": "../../tpls/menu_tpl.vue"
+				},
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "预约日历"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/meet/join/meet_join",
+			"style": {
+				"usingComponents": {
+					"cmpt-form-show": "/cmpts/public/form/form_show/form_show_cmpt"
+				},
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "预约登记"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/meet/detail/meet_detail",
+			"style": {
+				"usingComponents": {
+					"cmpt-detail": "/cmpts/biz/detail/detail_cmpt"
+				},
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "预约"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/meet/my_join_list/meet_my_join_list",
+			"style": {
+				"usingComponents": {
+					"listLoadTpl": "../../../../../tpls/public/list_load_tpl.vue"
+				},
+				"disableScroll": true,
+				"navigationBarTitleText": "我的预约"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/meet/my_join_detail/meet_my_join_detail",
+			"style": {
+				"usingComponents": {},
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "我的预约详情"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/meet/add/admin_meet_add",
+			"style": {
+				"usingComponents": {
+					"cmpt-form-set": "/cmpts/public/form/form_set/form_set_cmpt",
+					"cmpt-form-show": "/cmpts/public/form/form_show/form_show_cmpt",
+					"cmpt-picker-time": "/cmpts/public/picker_time/picker_time_cmpt",
+					"cmpt-picker-multi": "/cmpts/public/picker_multi/picker_multi_cmpt",
+					"Admin_meet_form_tpl": "../add/admin_meet_form_tpl.vue"
+				},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/meet/edit/admin_meet_edit",
+			"style": {
+				"usingComponents": {
+					"cmpt-form-set": "/cmpts/public/form/form_set/form_set_cmpt",
+					"cmpt-form-show": "/cmpts/public/form/form_show/form_show_cmpt",
+					"cmpt-picker-time": "/cmpts/public/picker_time/picker_time_cmpt",
+					"cmpt-picker-multi": "/cmpts/public/picker_multi/picker_multi_cmpt",
+					"Admin_meet_form_tpl": "../add/admin_meet_form_tpl.vue"
+				},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/meet/export/admin_join_export",
+			"style": {
+				"usingComponents": {
+					"cmpt-picker-time": "/cmpts/public/picker_time/picker_time_cmpt"
+				},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "预约名单导出"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/meet/join/admin_meet_join",
+			"style": {
+				"usingComponents": {
+					"Admin_meet_join_tpl": "./admin_meet_join_tpl.vue"
+				},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "分时段预约名单"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/meet/list/admin_meet_list",
+			"style": {
+				"usingComponents": {
+					"listLoadTpl": "../../../../../../tpls/public/list_load_tpl.vue"
+				},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"disableScroll": true
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/meet/record/admin_meet_record",
+			"style": {
+				"usingComponents": {
+					"cmpt-picker-time": "/cmpts/public/picker_time/picker_time_cmpt",
+					"Admin_meet_record_tpl": "./admin_meet_record_tpl.vue"
+				},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "预约名单统计"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/meet/scan/admin_meet_scan",
+			"style": {
+				"usingComponents": {
+					"cmpt-picker-time": "/cmpts/public/picker_time/picker_time_cmpt",
+					"Admin_meet_scan_tpl": "./admin_meet_scan_tpl.vue"
+				},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "管理员扫码核销"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/meet/temp/admin_meet_temp",
+			"style": {
+				"usingComponents": {
+					"Admin_meet_temp_tpl": "./admin_meet_temp_tpl.vue"
+				},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "时间模板选择"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/admin/meet/time/admin_meet_time",
+			"style": {
+				"usingComponents": {
+					"cmpt-picker-multi": "/cmpts/public/picker_multi/picker_multi_cmpt",
+					"cmpt-calendar": "/cmpts/public/calendar/calendar_meet/calendar_meet_cmpt",
+					"Admin_meet_time_form_tpl": "../../../admin/meet/time/admin_meet_time_form_tpl.vue"
+				},
+				"navigationBarBackgroundColor": "#2499f2",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "时间设置"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/work/index/home/work_home",
+			"style": {
+				"usingComponents": {},
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#1C9399",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "老师平台"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/work/index/login/work_login",
+			"style": {
+				"usingComponents": {},
+				"disableScroll": true,
+				"navigationBarBackgroundColor": "#1C9399",
+				"navigationBarTitleText": "老师平台",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/work/index/pwd/work_pwd",
+			"style": {
+				"usingComponents": {},
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#1C9399",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/work/meet/edit/work_meet_edit",
+			"style": {
+				"usingComponents": {
+					"cmpt-form-set": "/cmpts/public/form/form_set/form_set_cmpt",
+					"cmpt-form-show": "/cmpts/public/form/form_show/form_show_cmpt",
+					"cmpt-picker-time": "/cmpts/public/picker_time/picker_time_cmpt",
+					"cmpt-picker-multi": "/cmpts/public/picker_multi/picker_multi_cmpt",
+					"Admin_meet_form_tpl": "../../../admin/meet/add/admin_meet_form_tpl.vue"
+				},
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#1C9399",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "预约设置与时段排期"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/work/meet/time/work_meet_time",
+			"style": {
+				"usingComponents": {
+					"cmpt-picker-multi": "/cmpts/public/picker_multi/picker_multi_cmpt",
+					"cmpt-calendar": "/cmpts/public/calendar/calendar_meet/calendar_meet_cmpt",
+					"Admin_meet_time_form_tpl": "../../../admin/meet/time/admin_meet_time_form_tpl.vue"
+				},
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#1C9399",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "排期时段设置"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/work/meet/temp/work_meet_temp",
+			"style": {
+				"usingComponents": {
+					"Admin_meet_temp_tpl": "../../../admin/meet/temp/admin_meet_temp_tpl.vue"
+				},
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#1C9399",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "时间模板选择"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/work/meet/record/work_meet_record",
+			"style": {
+				"usingComponents": {
+					"cmpt-picker-time": "/cmpts/public/picker_time/picker_time_cmpt",
+					"Admin_meet_record_tpl": "../../../admin/meet/record/admin_meet_record_tpl.vue"
+				},
+				"navigationBarBackgroundColor": "#1C9399",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "预约名单统计"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/work/meet/join/work_meet_join",
+			"style": {
+				"usingComponents": {
+					"Admin_meet_join_tpl": "../../../admin/meet/join/admin_meet_join_tpl.vue"
+				},
+				"navigationBarBackgroundColor": "#1C9399",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "分时段预约名单"
+			}
+		},
+		{
+			"path": "projects/worktrain/pages/work/meet/scan/work_meet_scan",
+			"style": {
+				"usingComponents": {
+					"cmpt-picker-time": "/cmpts/public/picker_time/picker_time_cmpt",
+					"Admin_meet_scan_tpl": "../../../admin/meet/scan/admin_meet_scan_tpl.vue"
+				},
+				"navigationBarBackgroundColor": "#1C9399",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "扫码核销"
+			}
+		},
+		{
+			"path": "cmpts/public/form/form_set/field/form_set_field",
+			"style": {
+				"usingComponents": {
+					"cmpt-picker-multi": "/cmpts/public/picker_multi/picker_multi_cmpt"
+				},
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": true,
+				"backgroundTextStyle": "dark",
+				"navigationBarTitleText": "后台-字段添加"
+			}
+		},
+		{
+			"path": "cmpts/public/form/form_show/content/form_show_content",
+			"style": {
+				"usingComponents": {
+					"cmpt-editor": "/cmpts/public/editor/editor_cmpt"
+				},
+				"navigationBarTitleText": "详细内容"
+			}
+		},
+		{
+			"path": "pages/test1/test1",
+			"style": {
+				"usingComponents": {
+					"cmpt-car-number": "/cmpts/public/car_number/car_number_cmpt",
+					"cmpt-customer-nav": "/cmpts/public/custom_nav/custom_nav_cmpt",
+					"cmpt-swiper": "/cmpts/public/swiper/swiper_cmpt",
+					"cmpt-date-select": "/cmpts/public/calendar/date_select/date_select_cmpt",
+					"cmpt-time-select": "/cmpts/public/calendar/time_select/time_select_cmpt",
+					"cmpt-picker-time": "/cmpts/public/picker_time/picker_time_cmpt",
+					"cmpt-poster": "/cmpts/public/poster/poster_cmpt",
+					"cmpt-picker": "/cmpts/public/picker/picker_cmpt",
+					"cmpt-checkbox": "/cmpts/public/checkbox/checkbox_cmpt",
+					"cmpt-editor": "/cmpts/public/editor/editor_cmpt",
+					"cmpt-table": "/cmpts/public/table/table_cmpt",
+					"cmpt-file-upload": "/cmpts/public/file/file_upload_cmpt",
+					"cmpt-ex-form": "/cmpts/public/form/form_show/form_show_cmpt",
+					"cmpt-picker-multi": "/cmpts/public/picker_multi/picker_multi_cmpt"
+				}
+			}
+		}
+	],
+	"tabBar": {
+		"custom": false,
+		"backgroundColor": "#FFFFFF",
+		"color": "#999999",
+		"selectedColor": "#2B72D4",
+		"list": [
+			{
+				"pagePath": "projects/worktrain/pages/default/index/default_index",
+				"text": "首页",
+				"iconPath": "static/projects/worktrain/images/tabbar/home.png",
+				"selectedIconPath": "static/projects/worktrain/images/tabbar/home_cur.png"
+			},
+			{
+				"pagePath": "projects/worktrain/pages/news/index/news_index",
+				"text": "公告通知",
+				"iconPath": "static/projects/worktrain/images/tabbar/news.png",
+				"selectedIconPath": "static/projects/worktrain/images/tabbar/news_cur.png"
+			},
+			{
+				"pagePath": "projects/worktrain/pages/meet/calendar/meet_calendar",
+				"text": "预约日历",
+				"iconPath": "static/projects/worktrain/images/tabbar/day.png",
+				"selectedIconPath": "static/projects/worktrain/images/tabbar/day_cur.png"
+			},
+			{
+				"pagePath": "projects/worktrain/pages/my/index/my_index",
+				"text": "我的",
+				"iconPath": "static/projects/worktrain/images/tabbar/my.png",
+				"selectedIconPath": "static/projects/worktrain/images/tabbar/my_cur.png"
+			}
+		]
+	},
+	"permission": {
+		"scope.userLocation": {
+			"desc": "获取你当前位置信息用于小程序位置接口的效果展示"
+		}
+	},
+	"sitemapLocation": "sitemap.json",
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^cmpt-comm-list$": "@/cmpts/public/list/comm_list_cmpt",
+			"^cmpt-picker$": "@/cmpts/public/picker/picker_cmpt",
+			"^cmpt-modal$": "@/cmpts/public/modal/modal_cmpt"
+		}
+	},
+	"globalStyle": {
+		"backgroundColor": "#f1f1f1",
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "#2B72D4",
+		"navigationBarTitleText": "培训老师预约小程序",
+		"navigationBarTextStyle": "white"
+	},
+	"subPackages": []
+}

@@ -1,0 +1,8 @@
+
+.swiper {
+    width: 100%;
+}
+.swiper-item-images {
+    width: 100%;
+}
+

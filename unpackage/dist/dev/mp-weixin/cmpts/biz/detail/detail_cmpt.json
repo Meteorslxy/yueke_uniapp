@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "cmpt-poster": "/cmpts/public/poster/poster_cmpt",
+    "top-tpl": "/tpls/public/top_tpl"
+  }
+}

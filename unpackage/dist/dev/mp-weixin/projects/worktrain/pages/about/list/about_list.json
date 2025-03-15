@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "About_index": "../index/about_index",
+    "about_index": "/projects/worktrain/pages/about/index/about_index"
+  }
+}

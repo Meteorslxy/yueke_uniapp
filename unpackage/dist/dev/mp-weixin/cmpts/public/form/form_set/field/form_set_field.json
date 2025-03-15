@@ -1,0 +1,11 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "navigationBarTitleText": "后台-字段添加",
+  "usingComponents": {
+    "cmpt-picker": "/cmpts/public/picker/picker_cmpt",
+    "cmpt-picker-multi": "/cmpts/public/picker_multi/picker_multi_cmpt"
+  }
+}

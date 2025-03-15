@@ -1,0 +1,10 @@
+{
+  "disableScroll": true,
+  "navigationBarTitleText": "资讯",
+  "usingComponents": {
+    "newsIndexTpl": "../../../../../tpls/project/news_index_tpl",
+    "menuTpl": "../../tpls/menu_tpl",
+    "news-index-tpl": "/tpls/project/news_index_tpl",
+    "menu-tpl": "/projects/worktrain/pages/tpls/menu_tpl"
+  }
+}

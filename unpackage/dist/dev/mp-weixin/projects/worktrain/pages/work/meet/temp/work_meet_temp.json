@@ -1,0 +1,10 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#1C9399",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "时间模板选择",
+  "usingComponents": {
+    "Admin_meet_temp_tpl": "../../../admin/meet/temp/admin_meet_temp_tpl",
+    "admin_meet_temp_tpl": "/projects/worktrain/pages/admin/meet/temp/admin_meet_temp_tpl"
+  }
+}

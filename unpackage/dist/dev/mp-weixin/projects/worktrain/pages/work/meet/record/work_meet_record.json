@@ -1,0 +1,11 @@
+{
+  "navigationBarBackgroundColor": "#1C9399",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "预约名单统计",
+  "usingComponents": {
+    "cmpt-picker-time": "/cmpts/public/picker_time/picker_time_cmpt",
+    "Admin_meet_record_tpl": "../../../admin/meet/record/admin_meet_record_tpl",
+    "admin_meet_record_tpl": "/projects/worktrain/pages/admin/meet/record/admin_meet_record_tpl"
+  }
+}

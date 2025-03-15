@@ -1,0 +1,1 @@
+<view><block wx:if="{{compName==='topTpl'}}"><block wx:if="{{topBtnShow}}"><view data-event-opts="{{[['tap',[['top',['$event']]]]]}}" class="btn-fixed bg-gray btn-top" style="{{('color:#888!important;bottom:'+(bottom||'200')+'rpx;right:'+(right||'12')+'rpx;z-index: 99;')}}" bindtap="__e"><text class="icon-top"></text></view></block></block></view>

@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "cmpt-comm-list": "/cmpts/public/list/comm_list_cmpt",
+    "cmpt-modal": "/cmpts/public/modal/modal_cmpt",
+    "list-load-tpl": "/tpls/public/list_load_tpl"
+  }
+}

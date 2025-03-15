@@ -1,0 +1,33 @@
+// 本文件中的json内容将在云函数【运行】时作为参数传给云函数。
+// 配置教程参考：https://uniapp.dcloud.net.cn/uniCloud/rundebug.html#runparam
+{
+    "route": "passport/my_detail",
+    "token": "",
+    "PID": "worktrain",
+    "params": {},
+    "clientInfo": {
+      "PLATFORM": "mp-weixin",
+      "OS": "ios",
+      "APPID": "__UNI__17290FF",
+      "DEVICEID": "17419555530275798470",
+      "scene": 1001,
+      "deviceId": "17419555530275798470",
+      "appId": "__UNI__17290FF",
+      "appName": "yueke",
+      "appVersion": "1.0.0",
+      "appVersionCode": "100",
+      "appLanguage": "zh-Hans",
+      "uniCompilerVersion": "4.55",
+      "uniRuntimeVersion": "4.55",
+      "uniPlatform": "mp-weixin",
+      "deviceBrand": "devtools",
+      "deviceModel": "iPhone 12/13 (Pro)",
+      "deviceType": "phone",
+      "osName": "ios",
+      "osVersion": "10.0.1",
+      "hostVersion": "8.0.5",
+      "hostName": "WeChat",
+      "locale": "zh-Hans",
+      "LOCALE": "zh-Hans"
+    }
+}

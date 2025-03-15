@@ -1,0 +1,1 @@
+<view><cmpt-picker-multi vue-id="54507b80-1" data-com-type="wx" bind:__l="__l"></cmpt-picker-multi><cmpt-table vue-id="54507b80-2" data-com-type="wx" bind:__l="__l"></cmpt-table><cmpt-poster vue-id="54507b80-3" data-com-type="wx" bind:__l="__l"></cmpt-poster><cmpt-wxa vue-id="54507b80-4" bind:__l="__l"></cmpt-wxa></view>

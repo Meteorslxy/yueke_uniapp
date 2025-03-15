@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "个人资料",
+  "usingComponents": {
+    "cmpt-form-show": "/cmpts/public/form/form_show/form_show_cmpt",
+    "User_form": "./user_form",
+    "user_form": "/projects/worktrain/pages/my/edit/user_form"
+  }
+}

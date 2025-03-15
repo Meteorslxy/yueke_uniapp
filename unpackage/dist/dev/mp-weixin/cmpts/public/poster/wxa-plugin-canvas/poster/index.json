@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "we-canvas": "/cmpts/public/poster/wxa-plugin-canvas/index/index"
+  }
+}

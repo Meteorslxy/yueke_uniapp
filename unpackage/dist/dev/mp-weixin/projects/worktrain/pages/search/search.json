@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "搜索",
+  "usingComponents": {
+    "Search_tpl": "../../../../tpls/project/search_tpl",
+    "search_tpl": "/tpls/project/search_tpl"
+  }
+}
