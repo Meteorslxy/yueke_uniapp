@@ -47,7 +47,8 @@ export default {
         url() {
             return this.data.url;
         }
-    }
+    },
+	component: true
 };
 </script>
 <style></style>

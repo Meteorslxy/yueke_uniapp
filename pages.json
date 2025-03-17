@@ -1,15 +1,10 @@
 {
-	  "easycom": {
-	    "custom": {
-	      "^menuTpl$": "@/projects/worktrain/pages/tpls/menu_tpl"
-	    }
-	  },
 	"pages": [
 		{
 			"path": "projects/worktrain/pages/default/index/default_index",
 			"style": {
 				"usingComponents": {
-					"menuTpl": "../../tpls/menu_tpl.vue"
+					"menuTpl": "../../tpls/menu_tpl"
 				},
 				"enablePullDownRefresh": true,
 				"navigationStyle": "custom"
@@ -19,7 +14,7 @@
 			"path": "projects/worktrain/pages/about/list/about_list",
 			"style": {
 				"usingComponents": {
-					"About_index": "../index/about_index.vue"
+					"About_index": "../index/about_index"
 				},
 				"enablePullDownRefresh": true
 			}
@@ -28,7 +23,7 @@
 			"path": "projects/worktrain/pages/about/index/about_index",
 			"style": {
 				"usingComponents": {
-					"About_tpl": "../../../../../tpls/project/about_tpl.vue"
+					"About_tpl": "../../../../../tpls/project/about_tpl"
 				},
 				"enablePullDownRefresh": true
 			}
@@ -37,7 +32,7 @@
 			"path": "projects/worktrain/pages/search/search",
 			"style": {
 				"usingComponents": {
-					"Search_tpl": "../../../../tpls/project/search_tpl.vue"
+					"Search_tpl": "../../../../tpls/project/search_tpl"
 				},
 				"navigationBarTitleText": "搜索"
 			}
@@ -46,7 +41,7 @@
 			"path": "projects/worktrain/pages/my/index/my_index",
 			"style": {
 				"usingComponents": {
-					"menuTpl": "../../tpls/menu_tpl.vue"
+					"menuTpl": "../../tpls/menu_tpl"
 				},
 				"enablePullDownRefresh": true,
 				"navigationBarTitleText": "个人中心"
@@ -57,7 +52,7 @@
 			"style": {
 				"usingComponents": {
 					"cmpt-form-show": "/cmpts/public/form/form_show/form_show_cmpt",
-					"User_form": "../edit/user_form.vue"
+					"User_form": "../edit/user_form"
 				},
 				"enablePullDownRefresh": true,
 				"navigationBarTitleText": "注册"
@@ -68,7 +63,7 @@
 			"style": {
 				"usingComponents": {
 					"cmpt-form-show": "/cmpts/public/form/form_show/form_show_cmpt",
-					"User_form": "./user_form.vue"
+					"User_form": "./user_form"
 				},
 				"enablePullDownRefresh": true,
 				"navigationBarTitleText": "个人资料"
@@ -78,7 +73,7 @@
 			"path": "projects/worktrain/pages/my/foot/my_foot",
 			"style": {
 				"usingComponents": {
-					"My_foot_tpl": "../../../../../tpls/project/my_foot_tpl.vue"
+					"My_foot_tpl": "../../../../../tpls/project/my_foot_tpl"
 				},
 				"enablePullDownRefresh": true,
 				"navigationBarTitleText": "历史浏览"
@@ -88,7 +83,7 @@
 			"path": "projects/worktrain/pages/my/fav/my_fav",
 			"style": {
 				"usingComponents": {
-					"My_fav_tpl": "../../../../../tpls/project/my_fav_tpl.vue"
+					"My_fav_tpl": "../../../../../tpls/project/my_fav_tpl"
 				},
 				"enablePullDownRefresh": true,
 				"navigationBarTitleText": "我的收藏"
@@ -98,8 +93,8 @@
 			"path": "projects/worktrain/pages/news/index/news_index",
 			"style": {
 				"usingComponents": {
-					"newsIndexTpl": "../../../../../tpls/project/news_index_tpl.vue",
-					"menuTpl": "../../tpls/menu_tpl.vue"
+					"newsIndexTpl": "../../../../../tpls/project/news_index_tpl",
+					"menuTpl": "../../tpls/menu_tpl"
 				},
 				"disableScroll": true,
 				"navigationBarTitleText": "公告"
@@ -119,8 +114,8 @@
 			"path": "projects/worktrain/pages/news/cate1/news_cate1",
 			"style": {
 				"usingComponents": {
-					"newsIndexTpl": "../../../../../tpls/project/news_index_tpl.vue",
-					"menuTpl": "../../tpls/menu_tpl.vue"
+					"newsIndexTpl": "../../../../../tpls/project/news_index_tpl",
+					"menuTpl": "../../tpls/menu_tpl"
 				},
 				"disableScroll": true,
 				"navigationBarTitleText": "资讯"
@@ -130,8 +125,8 @@
 			"path": "projects/worktrain/pages/news/cate2/news_cate2",
 			"style": {
 				"usingComponents": {
-					"newsIndexTpl": "../../../../../tpls/project/news_index_tpl.vue",
-					"menuTpl": "../../tpls/menu_tpl.vue"
+					"newsIndexTpl": "../../../../../tpls/project/news_index_tpl",
+					"menuTpl": "../../tpls/menu_tpl"
 				},
 				"disableScroll": true,
 				"navigationBarTitleText": "资讯"
@@ -141,7 +136,7 @@
 			"path": "projects/worktrain/pages/admin/news/list/admin_news_list",
 			"style": {
 				"usingComponents": {
-					"listLoadTpl": "../../../../../../tpls/public/list_load_tpl.vue"
+					"listLoadTpl": "../../../../../../tpls/public/list_load_tpl"
 				},
 				"navigationBarBackgroundColor": "#2499f2",
 				"navigationBarTextStyle": "white",
@@ -154,7 +149,7 @@
 				"usingComponents": {
 					"cmpt-img-upload": "/cmpts/public/img/img_upload_cmpt",
 					"cmpt-form-show": "/cmpts/public/form/form_show/form_show_cmpt",
-					"Admin_news_form_tpl": "../admin_news_form_tpl.vue"
+					"Admin_news_form_tpl": "../admin_news_form_tpl"
 				},
 				"navigationBarBackgroundColor": "#2499f2",
 				"navigationBarTextStyle": "white",
@@ -167,7 +162,7 @@
 				"usingComponents": {
 					"cmpt-img-upload": "/cmpts/public/img/img_upload_cmpt",
 					"cmpt-form-show": "/cmpts/public/form/form_show/form_show_cmpt",
-					"Admin_news_form_tpl": "../admin_news_form_tpl.vue"
+					"Admin_news_form_tpl": "../admin_news_form_tpl"
 				},
 				"navigationBarBackgroundColor": "#2499f2",
 				"navigationBarTextStyle": "white",
@@ -244,7 +239,7 @@
 			"path": "projects/worktrain/pages/admin/mgr/log/admin_log_list",
 			"style": {
 				"usingComponents": {
-					"listLoadTpl": "../../../../../../tpls/public/list_load_tpl.vue"
+					"listLoadTpl": "../../../../../../tpls/public/list_load_tpl"
 				},
 				"navigationBarBackgroundColor": "#2499f2",
 				"navigationBarTextStyle": "white",
@@ -266,7 +261,7 @@
 			"path": "projects/worktrain/pages/admin/mgr/list/admin_mgr_list",
 			"style": {
 				"usingComponents": {
-					"listLoadTpl": "../../../../../../tpls/public/list_load_tpl.vue"
+					"listLoadTpl": "../../../../../../tpls/public/list_load_tpl"
 				},
 				"navigationBarBackgroundColor": "#2499f2",
 				"navigationBarTextStyle": "white",
@@ -295,7 +290,7 @@
 			"path": "projects/worktrain/pages/admin/user/list/admin_user_list",
 			"style": {
 				"usingComponents": {
-					"listLoadTpl": "../../../../../../tpls/public/list_load_tpl.vue"
+					"listLoadTpl": "../../../../../../tpls/public/list_load_tpl"
 				},
 				"navigationBarBackgroundColor": "#2499f2",
 				"navigationBarTextStyle": "white",
@@ -307,7 +302,7 @@
 			"path": "projects/worktrain/pages/admin/user/detail/admin_user_detail",
 			"style": {
 				"usingComponents": {
-					"adminFormsDetailTpl": "../../../../../../tpls/public/admin_forms_detail_tpl.vue"
+					"adminFormsDetailTpl": "../../../../../../tpls/public/admin_forms_detail_tpl"
 				},
 				"navigationBarBackgroundColor": "#2499f2",
 				"navigationBarTextStyle": "white",
@@ -329,7 +324,7 @@
 			"path": "projects/worktrain/pages/meet/index/meet_index",
 			"style": {
 				"usingComponents": {
-					"listLoadTpl": "../../../../../tpls/public/list_load_tpl.vue"
+					"listLoadTpl": "../../../../../tpls/public/list_load_tpl"
 				},
 				"disableScroll": true,
 				"navigationBarTitleText": "预约"
@@ -340,7 +335,7 @@
 			"style": {
 				"usingComponents": {
 					"cmpt-calendar": "/cmpts/public/calendar/calendar_comm/calendar_comm_cmpt",
-					"menuTpl": "../../tpls/menu_tpl.vue"
+					"menuTpl": "../../tpls/menu_tpl"
 				},
 				"enablePullDownRefresh": true,
 				"navigationBarTitleText": "预约日历"
@@ -370,7 +365,7 @@
 			"path": "projects/worktrain/pages/meet/my_join_list/meet_my_join_list",
 			"style": {
 				"usingComponents": {
-					"listLoadTpl": "../../../../../tpls/public/list_load_tpl.vue"
+					"listLoadTpl": "../../../../../tpls/public/list_load_tpl"
 				},
 				"disableScroll": true,
 				"navigationBarTitleText": "我的预约"
@@ -392,7 +387,7 @@
 					"cmpt-form-show": "/cmpts/public/form/form_show/form_show_cmpt",
 					"cmpt-picker-time": "/cmpts/public/picker_time/picker_time_cmpt",
 					"cmpt-picker-multi": "/cmpts/public/picker_multi/picker_multi_cmpt",
-					"Admin_meet_form_tpl": "../add/admin_meet_form_tpl.vue"
+					"Admin_meet_form_tpl": "../add/admin_meet_form_tpl"
 				},
 				"navigationBarBackgroundColor": "#2499f2",
 				"navigationBarTextStyle": "white",
@@ -407,7 +402,7 @@
 					"cmpt-form-show": "/cmpts/public/form/form_show/form_show_cmpt",
 					"cmpt-picker-time": "/cmpts/public/picker_time/picker_time_cmpt",
 					"cmpt-picker-multi": "/cmpts/public/picker_multi/picker_multi_cmpt",
-					"Admin_meet_form_tpl": "../add/admin_meet_form_tpl.vue"
+					"Admin_meet_form_tpl": "../add/admin_meet_form_tpl"
 				},
 				"navigationBarBackgroundColor": "#2499f2",
 				"navigationBarTextStyle": "white",
@@ -430,7 +425,7 @@
 			"path": "projects/worktrain/pages/admin/meet/join/admin_meet_join",
 			"style": {
 				"usingComponents": {
-					"Admin_meet_join_tpl": "./admin_meet_join_tpl.vue"
+					"Admin_meet_join_tpl": "./admin_meet_join_tpl"
 				},
 				"navigationBarBackgroundColor": "#2499f2",
 				"navigationBarTextStyle": "white",
@@ -441,7 +436,7 @@
 			"path": "projects/worktrain/pages/admin/meet/list/admin_meet_list",
 			"style": {
 				"usingComponents": {
-					"listLoadTpl": "../../../../../../tpls/public/list_load_tpl.vue"
+					"listLoadTpl": "../../../../../../tpls/public/list_load_tpl"
 				},
 				"navigationBarBackgroundColor": "#2499f2",
 				"navigationBarTextStyle": "white",
@@ -453,7 +448,7 @@
 			"style": {
 				"usingComponents": {
 					"cmpt-picker-time": "/cmpts/public/picker_time/picker_time_cmpt",
-					"Admin_meet_record_tpl": "./admin_meet_record_tpl.vue"
+					"Admin_meet_record_tpl": "./admin_meet_record_tpl"
 				},
 				"navigationBarBackgroundColor": "#2499f2",
 				"navigationBarTextStyle": "white",
@@ -466,7 +461,7 @@
 			"style": {
 				"usingComponents": {
 					"cmpt-picker-time": "/cmpts/public/picker_time/picker_time_cmpt",
-					"Admin_meet_scan_tpl": "./admin_meet_scan_tpl.vue"
+					"Admin_meet_scan_tpl": "./admin_meet_scan_tpl"
 				},
 				"navigationBarBackgroundColor": "#2499f2",
 				"navigationBarTextStyle": "white",
@@ -478,7 +473,7 @@
 			"path": "projects/worktrain/pages/admin/meet/temp/admin_meet_temp",
 			"style": {
 				"usingComponents": {
-					"Admin_meet_temp_tpl": "./admin_meet_temp_tpl.vue"
+					"Admin_meet_temp_tpl": "./admin_meet_temp_tpl"
 				},
 				"navigationBarBackgroundColor": "#2499f2",
 				"navigationBarTextStyle": "white",
@@ -492,7 +487,7 @@
 				"usingComponents": {
 					"cmpt-picker-multi": "/cmpts/public/picker_multi/picker_multi_cmpt",
 					"cmpt-calendar": "/cmpts/public/calendar/calendar_meet/calendar_meet_cmpt",
-					"Admin_meet_time_form_tpl": "../../../admin/meet/time/admin_meet_time_form_tpl.vue"
+					"Admin_meet_time_form_tpl": "../../../admin/meet/time/admin_meet_time_form_tpl"
 				},
 				"navigationBarBackgroundColor": "#2499f2",
 				"navigationBarTextStyle": "white",
@@ -537,7 +532,7 @@
 					"cmpt-form-show": "/cmpts/public/form/form_show/form_show_cmpt",
 					"cmpt-picker-time": "/cmpts/public/picker_time/picker_time_cmpt",
 					"cmpt-picker-multi": "/cmpts/public/picker_multi/picker_multi_cmpt",
-					"Admin_meet_form_tpl": "../../../admin/meet/add/admin_meet_form_tpl.vue"
+					"Admin_meet_form_tpl": "../../../admin/meet/add/admin_meet_form_tpl"
 				},
 				"enablePullDownRefresh": true,
 				"navigationBarBackgroundColor": "#1C9399",
@@ -551,7 +546,7 @@
 				"usingComponents": {
 					"cmpt-picker-multi": "/cmpts/public/picker_multi/picker_multi_cmpt",
 					"cmpt-calendar": "/cmpts/public/calendar/calendar_meet/calendar_meet_cmpt",
-					"Admin_meet_time_form_tpl": "../../../admin/meet/time/admin_meet_time_form_tpl.vue"
+					"Admin_meet_time_form_tpl": "../../../admin/meet/time/admin_meet_time_form_tpl"
 				},
 				"enablePullDownRefresh": true,
 				"navigationBarBackgroundColor": "#1C9399",
@@ -563,7 +558,7 @@
 			"path": "projects/worktrain/pages/work/meet/temp/work_meet_temp",
 			"style": {
 				"usingComponents": {
-					"Admin_meet_temp_tpl": "../../../admin/meet/temp/admin_meet_temp_tpl.vue"
+					"Admin_meet_temp_tpl": "../../../admin/meet/temp/admin_meet_temp_tpl"
 				},
 				"enablePullDownRefresh": true,
 				"navigationBarBackgroundColor": "#1C9399",
@@ -576,7 +571,7 @@
 			"style": {
 				"usingComponents": {
 					"cmpt-picker-time": "/cmpts/public/picker_time/picker_time_cmpt",
-					"Admin_meet_record_tpl": "../../../admin/meet/record/admin_meet_record_tpl.vue"
+					"Admin_meet_record_tpl": "../../../admin/meet/record/admin_meet_record_tpl"
 				},
 				"navigationBarBackgroundColor": "#1C9399",
 				"navigationBarTextStyle": "white",
@@ -588,7 +583,7 @@
 			"path": "projects/worktrain/pages/work/meet/join/work_meet_join",
 			"style": {
 				"usingComponents": {
-					"Admin_meet_join_tpl": "../../../admin/meet/join/admin_meet_join_tpl.vue"
+					"Admin_meet_join_tpl": "../../../admin/meet/join/admin_meet_join_tpl"
 				},
 				"navigationBarBackgroundColor": "#1C9399",
 				"navigationBarTextStyle": "white",
@@ -600,7 +595,7 @@
 			"style": {
 				"usingComponents": {
 					"cmpt-picker-time": "/cmpts/public/picker_time/picker_time_cmpt",
-					"Admin_meet_scan_tpl": "../../../admin/meet/scan/admin_meet_scan_tpl.vue"
+					"Admin_meet_scan_tpl": "../../../admin/meet/scan/admin_meet_scan_tpl"
 				},
 				"navigationBarBackgroundColor": "#1C9399",
 				"navigationBarTextStyle": "white",

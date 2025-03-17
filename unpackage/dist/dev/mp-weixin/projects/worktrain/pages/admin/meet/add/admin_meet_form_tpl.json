@@ -1,6 +1,6 @@
 {
+  "component": true,
   "usingComponents": {
     "cmpt-picker": "/cmpts/public/picker/picker_cmpt"
-  },
-  "component": true
+  }
 }

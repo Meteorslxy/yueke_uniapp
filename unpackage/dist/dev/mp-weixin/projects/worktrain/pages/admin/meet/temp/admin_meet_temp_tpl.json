@@ -1,6 +1,6 @@
 {
-  "component": true,
   "usingComponents": {
     "cmpt-modal": "/cmpts/public/modal/modal_cmpt"
-  }
+  },
+  "component": true
 }

@@ -21,9 +21,13 @@
                 </view>
                 <!-- List Begin -->
                 <view class="admin-comm-list">
+					  <!-- 加载状态提示 -->
+					<view v-if="!dataList.list" class="load text-grey">加载中...</view>
+					
                     <view v-if="dataList && dataList.total" class="load text-grey">共有{{ dataList.total }}条符合条件记录</view>
 
-                    <view class="item" v-for="(item, index) in dataList.list" :key="index">
+                    <!-- <view class="item" v-for="(item, index) in dataList.list" :key="index"> -->
+					<view class="item" v-for="(item, index) in (dataList.list || [])" :key="index">
                         <view class="no">{{ index + 1 }}</view>
 
                         <view class="header">
@@ -83,6 +87,10 @@
 
                 <listLoadTpl compName="listLoadTpl" :data="{ dataList, skin: 'text-grey' }"></listLoadTpl>
                 <!-- load end -->
+				<!-- 空数据提示 -->
+				<view v-if="dataList.list && dataList.list.length === 0" class="load text-grey">
+				    暂无数据
+				</view>
             </cmpt-comm-list>
         </block>
     </view>

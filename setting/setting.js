@@ -1,6 +1,6 @@
 module.exports = {
     //### 环境相关
-    CLOUD_ID: '',
+    CLOUD_ID: 'tcb-zz6pckedn3bishi-6cu741161bd8',
     //云服务id ,本地测试环境
 
     // #### 版本信息
